@@ -1,0 +1,226 @@
+{
+    "model_name": "XGBoost",
+    "global_importance": [
+        {
+            "feature": "ReportYear",
+            "importance": 0.40245652198791504
+        },
+        {
+            "feature": "tfidf_disorder gender",
+            "importance": 0.35420331358909607
+        },
+        {
+            "feature": "tfidf_breast diag",
+            "importance": 0.3223439157009125
+        },
+        {
+            "feature": "tfidf_mammography standard",
+            "importance": 0.31542059779167175
+        },
+        {
+            "feature": "tfidf_prostate cancer",
+            "importance": 0.30928799510002136
+        },
+        {
+            "feature": "tfidf_beam",
+            "importance": 0.2921229600906372
+        },
+        {
+            "feature": "tfidf_problem dme",
+            "importance": 0.26923513412475586
+        },
+        {
+            "feature": "tfidf_cardio vasc",
+            "importance": 0.21389076113700867
+        },
+        {
+            "feature": "age_0 to 10",
+            "importance": 0.20339542627334595
+        },
+        {
+            "feature": "tfidf_osteoporosis",
+            "importance": 0.20009039342403412
+        },
+        {
+            "feature": "tfidf_lab",
+            "importance": 0.20008473098278046
+        },
+        {
+            "feature": "tfidf_gerd",
+            "importance": 0.19763629138469696
+        },
+        {
+            "feature": "tfidf_dis headache",
+            "importance": 0.19684270024299622
+        },
+        {
+            "feature": "tfidf_breast",
+            "importance": 0.1928894966840744
+        },
+        {
+            "feature": "tfidf_blood",
+            "importance": 0.18344606459140778
+        },
+        {
+            "feature": "tfidf_dme electric",
+            "importance": 0.17817488312721252
+        },
+        {
+            "feature": "tfidf_gi gerd",
+            "importance": 0.1776248663663864
+        },
+        {
+            "feature": "tfidf_gyn pregnancy",
+            "importance": 0.17719979584217072
+        },
+        {
+            "feature": "tfidf_rtc expedited",
+            "importance": 0.1742577850818634
+        },
+        {
+            "feature": "tfidf_horm",
+            "importance": 0.17244158685207367
+        },
+        {
+            "feature": "age_21 to 30",
+            "importance": 0.17121510207653046
+        },
+        {
+            "feature": "tfidf_biologics",
+            "importance": 0.16309745609760284
+        },
+        {
+            "feature": "tfidf_admit expedited",
+            "importance": 0.15857632458209991
+        },
+        {
+            "feature": "tfidf_injection",
+            "importance": 0.15518200397491455
+        },
+        {
+            "feature": "tfidf_musculoskeletal",
+            "importance": 0.15410083532333374
+        },
+        {
+            "feature": "tfidf_rehab svc",
+            "importance": 0.1517275869846344
+        },
+        {
+            "feature": "tfidf_dis diag",
+            "importance": 0.1440945565700531
+        },
+        {
+            "feature": "tfidf_standard",
+            "importance": 0.13753162324428558
+        },
+        {
+            "feature": "tfidf_mammography",
+            "importance": 0.13529813289642334
+        },
+        {
+            "feature": "tfidf_expedited medical",
+            "importance": 0.13523219525814056
+        }
+    ],
+    "demographic_feature_importance": {
+        "gender_Female": 0.03189375624060631,
+        "gender_Male": 0.03481450304389,
+        "gender_Other": 0.0,
+        "gender_Unknown": 0.03831537440419197,
+        "age_0 to 10": 0.20339542627334595,
+        "age_11 to 20": 0.04474905878305435,
+        "age_21 to 30": 0.17121510207653046,
+        "age_31 to 40": 0.04129362478852272,
+        "age_41 to 50": 0.046781107783317566,
+        "age_51 to 64": 0.0572151318192482,
+        "age_65+": 0.10859827697277069,
+        "age_Unknown": 0.006795370485633612
+    },
+    "demographic_shap_pct": 4.8671555519104,
+    "group_shap": {
+        "gender_Male": [
+            {
+                "feature": "ReportYear",
+                "importance": 0.3821665048599243
+            },
+            {
+                "feature": "tfidf_disorder gender",
+                "importance": 0.35558170080184937
+            },
+            {
+                "feature": "tfidf_mammography standard",
+                "importance": 0.3316017687320709
+            },
+            {
+                "feature": "tfidf_breast diag",
+                "importance": 0.32253000140190125
+            },
+            {
+                "feature": "tfidf_prostate cancer",
+                "importance": 0.3103415369987488
+            },
+            {
+                "feature": "tfidf_beam",
+                "importance": 0.29771846532821655
+            },
+            {
+                "feature": "tfidf_problem dme",
+                "importance": 0.2707369923591614
+            },
+            {
+                "feature": "tfidf_cardio vasc",
+                "importance": 0.2138879895210266
+            },
+            {
+                "feature": "age_0 to 10",
+                "importance": 0.206210657954216
+            },
+            {
+                "feature": "tfidf_osteoporosis",
+                "importance": 0.20321336388587952
+            }
+        ],
+        "gender_Female": [
+            {
+                "feature": "ReportYear",
+                "importance": 0.40042099356651306
+            },
+            {
+                "feature": "tfidf_disorder gender",
+                "importance": 0.3494589924812317
+            },
+            {
+                "feature": "tfidf_breast diag",
+                "importance": 0.318406343460083
+            },
+            {
+                "feature": "tfidf_prostate cancer",
+                "importance": 0.3078762888908386
+            },
+            {
+                "feature": "tfidf_mammography standard",
+                "importance": 0.3014867603778839
+            },
+            {
+                "feature": "tfidf_beam",
+                "importance": 0.2851048409938812
+            },
+            {
+                "feature": "tfidf_problem dme",
+                "importance": 0.269989937543869
+            },
+            {
+                "feature": "tfidf_cardio vasc",
+                "importance": 0.2136855572462082
+            },
+            {
+                "feature": "tfidf_lab",
+                "importance": 0.20545537769794464
+            },
+            {
+                "feature": "age_0 to 10",
+                "importance": 0.2020699828863144
+            }
+        ]
+    }
+}
