@@ -1,0 +1,226 @@
+{
+    "model_name": "LightGBM",
+    "global_importance": [
+        {
+            "feature": "ReportYear",
+            "importance": 0.34735417665843843
+        },
+        {
+            "feature": "tfidf_musculoskeletal",
+            "importance": 0.0916999995850484
+        },
+        {
+            "feature": "age_0 to 10",
+            "importance": 0.08954409202379834
+        },
+        {
+            "feature": "tfidf_mammography standard",
+            "importance": 0.056231765562557524
+        },
+        {
+            "feature": "tfidf_management viscosupp",
+            "importance": 0.05466619748977134
+        },
+        {
+            "feature": "tfidf_disease hepatitis",
+            "importance": 0.050996081400126035
+        },
+        {
+            "feature": "tfidf_pharmacy",
+            "importance": 0.04245222358728906
+        },
+        {
+            "feature": "age_11 to 20",
+            "importance": 0.03794769839517334
+        },
+        {
+            "feature": "tfidf_mental health",
+            "importance": 0.03589255959636911
+        },
+        {
+            "feature": "tfidf_obesity",
+            "importance": 0.03428530400098191
+        },
+        {
+            "feature": "tfidf_pain",
+            "importance": 0.028477190014214303
+        },
+        {
+            "feature": "tfidf_standard",
+            "importance": 0.02652675310178899
+        },
+        {
+            "feature": "tfidf_medical",
+            "importance": 0.026485159020602816
+        },
+        {
+            "feature": "tfidf_injection",
+            "importance": 0.024504722600324477
+        },
+        {
+            "feature": "tfidf_obesity pharmacy",
+            "importance": 0.02413282182923865
+        },
+        {
+            "feature": "tfidf_rehab",
+            "importance": 0.023313521661211933
+        },
+        {
+            "feature": "tfidf_standard experimental",
+            "importance": 0.02315191309740545
+        },
+        {
+            "feature": "tfidf_speech",
+            "importance": 0.02121208287152288
+        },
+        {
+            "feature": "tfidf_cns",
+            "importance": 0.020804297352908695
+        },
+        {
+            "feature": "tfidf_hepatitis",
+            "importance": 0.020405891119582374
+        },
+        {
+            "feature": "tfidf_disc",
+            "importance": 0.01953729618504511
+        },
+        {
+            "feature": "age_21 to 30",
+            "importance": 0.0176690981625154
+        },
+        {
+            "feature": "tfidf_expedited",
+            "importance": 0.01732828983472975
+        },
+        {
+            "feature": "tfidf_disease",
+            "importance": 0.01698811550745526
+        },
+        {
+            "feature": "tfidf_medical necessity",
+            "importance": 0.016478491642487277
+        },
+        {
+            "feature": "tfidf_screen",
+            "importance": 0.016003522141711853
+        },
+        {
+            "feature": "tfidf_control",
+            "importance": 0.015675335980824635
+        },
+        {
+            "feature": "tfidf_experimental",
+            "importance": 0.015137191709708484
+        },
+        {
+            "feature": "tfidf_anti virals",
+            "importance": 0.01431764025058825
+        },
+        {
+            "feature": "age_51 to 64",
+            "importance": 0.01402625004412958
+        }
+    ],
+    "demographic_feature_importance": {
+        "gender_Female": 0.013581670718321255,
+        "gender_Male": 0.005800315725201615,
+        "gender_Other": 0.00018762376385307028,
+        "gender_Unknown": 0.0011658908469247985,
+        "age_0 to 10": 0.08954409202379834,
+        "age_11 to 20": 0.03794769839517334,
+        "age_21 to 30": 0.0176690981625154,
+        "age_31 to 40": 0.01052948185054648,
+        "age_41 to 50": 0.012113518183869224,
+        "age_51 to 64": 0.01402625004412958,
+        "age_65+": 0.006749462567557223,
+        "age_Unknown": 0.0
+    },
+    "demographic_shap_pct": 9.960451860561607,
+    "group_shap": {
+        "gender_Male": [
+            {
+                "feature": "ReportYear",
+                "importance": 0.32070559975311663
+            },
+            {
+                "feature": "age_0 to 10",
+                "importance": 0.10519744526534962
+            },
+            {
+                "feature": "tfidf_musculoskeletal",
+                "importance": 0.07732789457441469
+            },
+            {
+                "feature": "tfidf_disease hepatitis",
+                "importance": 0.05502370726121102
+            },
+            {
+                "feature": "age_11 to 20",
+                "importance": 0.03977272435017587
+            },
+            {
+                "feature": "tfidf_mammography standard",
+                "importance": 0.03937637249869261
+            },
+            {
+                "feature": "tfidf_pharmacy",
+                "importance": 0.03845536797805002
+            },
+            {
+                "feature": "tfidf_mental health",
+                "importance": 0.03575347459321545
+            },
+            {
+                "feature": "tfidf_medical",
+                "importance": 0.032381255699274594
+            },
+            {
+                "feature": "tfidf_management viscosupp",
+                "importance": 0.030694085474046277
+            }
+        ],
+        "gender_Female": [
+            {
+                "feature": "ReportYear",
+                "importance": 0.367223346364073
+            },
+            {
+                "feature": "tfidf_musculoskeletal",
+                "importance": 0.1024652428681401
+            },
+            {
+                "feature": "age_0 to 10",
+                "importance": 0.07876092149030571
+            },
+            {
+                "feature": "tfidf_management viscosupp",
+                "importance": 0.07228610514778804
+            },
+            {
+                "feature": "tfidf_mammography standard",
+                "importance": 0.06866652217657473
+            },
+            {
+                "feature": "tfidf_disease hepatitis",
+                "importance": 0.04848650686955181
+            },
+            {
+                "feature": "tfidf_pharmacy",
+                "importance": 0.04544245872075211
+            },
+            {
+                "feature": "tfidf_obesity",
+                "importance": 0.04384658920279227
+            },
+            {
+                "feature": "age_11 to 20",
+                "importance": 0.03678109330823003
+            },
+            {
+                "feature": "tfidf_mental health",
+                "importance": 0.03589702001827072
+            }
+        ]
+    }
+}
